@@ -1,0 +1,5 @@
+.parcel-cache
+parcel/node_modules
+webpack/node_modules
+dist
+.DS_Store

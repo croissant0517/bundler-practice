@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.8.3",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.13.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "name": "bundler-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm dist/*"
+  },
+  "source": "src/index.html",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
